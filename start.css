@@ -1,0 +1,126 @@
+ /* Remove the navbar's default margin-bottom and rounded borders */ 
+    body
+    {
+      background-image: url("img/bk.jpg");
+    }
+
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+    
+    /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+    .row.content {height: 450px}
+    
+    /* Set gray background color and 100% height */
+    .sidenav {
+      padding-top: 10px;
+      background-color: rgba(0,6,93,0.4);
+      height: 120%;
+      border-radius: 15px 50px 30px;
+      
+    }
+    
+    #qno
+    {
+      padding-left: 40%;
+      color: white;
+      font-weight: 900;
+      font-variant: small-caps;
+      opacity: 1;
+      font-family: 'counter';
+      font-size: 250%;
+
+
+    }
+    /* Set black background color, white text and some padding */
+    footer {
+      background-color: black;
+      color: white;
+      padding: 15px;
+    }
+    #ra
+{
+  position: relative;
+   top : 0;
+   padding-top: 0;
+  
+    font-size: 300%;
+    float: center;
+   
+    margin-right: 10%;
+
+    padding:5% 5% 5% 5%;
+    font-family: 'digital-clock-font';
+    color:#ff0000;
+    margin-top: 100%;
+
+    
+}
+#timer
+{
+
+    background-color:rgba(15,15,15,.9);
+    
+
+    border-radius: 10%;
+
+    
+   
+}
+@font-face{
+ font-family:'digital-clock-font';
+ src: url('font/DIGITALDREAM.ttf');
+}
+@font-face{
+ font-family:'counter';
+ src: url('font/cs_regular.ttf');
+}
+
+
+    /* On small screens, set height to 'auto' for sidenav and grid */
+    @media screen and (max-width: 767px) {
+      .sidenav {
+        height: auto;
+        padding: 15px;
+        margin-top: 0;
+        border-radius: 0 0 0;
+
+      }
+      #ra
+      {
+        margin-top: 0;
+      }
+      #timer
+      {
+        border-radius: 0;
+      }
+      #qno
+      {
+        padding-left: 0%;
+      }
+      .row.content {height:auto;} 
+    }
+
+
+
+input[type= submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    border-radius: 10%;
+  font-weight: bold;
+}
+input[type= submit]:hover {
+
+  color : black;
+}
+
+
+
+
+
+
